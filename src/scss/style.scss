@@ -1,0 +1,114 @@
+/**
+* Author: Matheus Lopes Prado
+* Data: 19.01.2019
+* Função: Site do Canil Fontshweizers
+*/
+
+@import "classes.scss";
+
+#navbar {
+  background-color: $color-2;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+#firstpage {
+  background: url("../img/bg_firstpage.jpg") no-repeat center;
+  background-size: cover;
+  padding: $padding;
+  @extend .div-padrao;
+}
+#firstpage_conteudo {
+  color: $color-1;
+  background-color: $color-3;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+#secondpage {
+  background: $color-1;
+  @extend .div-padrao;
+}
+
+#secondpage_conteudo {
+  color: $color-2;
+}
+
+#thirdpage {
+  background: url("../img/bg_thirdpage.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0% 0%;
+  @extend .div-padrao;
+}
+
+#thirdpage_conteudo {
+  display: flex;
+  align-items: center;
+  padding: $padding;
+  width: 100vw;
+  height: 100vh;
+  background: $color-3;
+  color: $color-1;
+}
+
+#fourthpage {
+  background: $color-1;
+  @extend .div-padrao;
+}
+
+#fourthpage_conteudo {
+  padding: $padding;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#fifthpage {
+  @extend .div-padrao;
+  background: url("../img/bg_fifthpage.jpg") no-repeat;
+  background-size: cover;
+}
+
+#fifthpage_conteudo {
+  display: flex;
+  align-items: center;
+  padding: $padding;
+  width: 100vw;
+  height: 100vh;
+  background: $color-3;
+  color: $color-1;
+}
+
+#sixthpage {
+  background: $color-1;
+  @extend .div-padrao;
+}
+
+#sixthpage_conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $padding;
+  background: $color-1;
+  height: 100%;
+}
+#sixthpage_contato {
+  #contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #direitos {
+     
+    }
+  }
+
+}

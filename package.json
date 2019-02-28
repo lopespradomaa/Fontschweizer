@@ -1,0 +1,25 @@
+{
+  "name": "Fontschweizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "gulp-watch": "^5.0.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6"
+  }
+}
