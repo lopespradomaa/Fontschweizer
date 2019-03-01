@@ -37,7 +37,7 @@
     padding: 0px;
     margin: 0px; }
   .texto_pp {
-    font-size: 20px;
+    font-size: 15px;
     padding: 0px;
     margin: 0px; } }
 
@@ -140,15 +140,7 @@
 #sixthpage {
   background: #fff; }
 
-#sixthpage_conteudo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 56px 0 0 0;
-  background: #fff;
-  height: 100%; }
-
-#sixthpage_contato #contato {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+#sixthpage_contato1 {
+  width: 50%;
+  height: 100%;
+  padding: 57px 0 0 0; }

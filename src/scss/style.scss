@@ -93,22 +93,8 @@
   @extend .div-padrao;
 }
 
-#sixthpage_conteudo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: $padding;
-  background: $color-1;
-  height: 100%;
-}
-#sixthpage_contato {
-  #contato {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    #direitos {
-     
-    }
-  }
-
+#sixthpage_contato1 {
+width: 50%;
+height: 100%;
+padding: 57px 0 0 0;
 }
