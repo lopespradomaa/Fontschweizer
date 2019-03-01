@@ -1,15 +1,9 @@
 # Fontschweizer
 Este é o site do meu canil.
-HTML, CSS e JS
-Bootstrap, Sass e Jquery
+HTML, CSS e JS.
+Bootstrap, Sass e Jquery.
+NPM(node.js), Git, Gulp, BrowerSync.
 
-
-Site feito por Matheus Lopes Prado, para servir com portfolio e no intuito de divulgar 
-meu canil.
-
-
+Feito por Matheus Lopes Prado.
 ig: prado_pbs
 contato: 31 9 838613433
-
-
-Obrigado.
