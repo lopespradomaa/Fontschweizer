@@ -14,23 +14,25 @@
 }
 
 #firstpage {
-  background: url("../img/bg_firstpage.jpg") no-repeat center;
-  background-size: cover;
   padding: $padding;
   @extend .div-padrao;
 }
+
 #firstpage_conteudo {
-  color: $color-1;
-  background-color: $color-3;
+  height: 100vh;
   width: 100%;
-  height: 100%;
+  padding: 0px;
+  margin: 0px;
   align-items: center;
   justify-content: center;
-  padding: 0;
-  margin: 0px;
-  display: flex;
-  box-sizing: border-box;
+   img {
+     height: 100vh;
+     width: auto;
+   }
+
 }
+
+
 
 #secondpage {
   background: $color-1;
