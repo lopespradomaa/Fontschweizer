@@ -1,0 +1,104 @@
+@import "classes.scss";
+
+/*Foto da Isis*/
+#isis{
+    position: relative;
+}
+#comentario-isis{
+    position: absolute;
+    width: 0;
+    color: $color-1;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s ease;
+    
+}
+#isis:hover #comentario-isis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba($color: #000000, $alpha: 0.5);
+    opacity: 1;
+    color: $color-1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+/*Foto do Leonidas*/
+#leonidas{
+    position: relative;
+}
+#comentario-leonidas{
+    position: absolute;
+    width: 0;
+    color: $color-1;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s ease;
+    
+}
+#leonidas:hover #comentario-leonidas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba($color: #000000, $alpha: 0.5);
+    opacity: 1;
+    color: $color-1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+/*Foto do Bask*/
+#bask{
+    position: relative;
+}
+#comentario-bask{
+    position: absolute;
+    width: 0;
+    color: $color-1;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s ease;
+    
+}
+#bask:hover #comentario-bask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba($color: #000000, $alpha: 0.5);
+    opacity: 1;
+    color: $color-1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+/*Foto da Ruby*/
+#ruby{
+    position: relative;
+}
+#comentario-ruby{
+    position: absolute;
+    width: 0;
+    color: $color-1;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s ease;
+    
+}
+#ruby:hover #comentario-ruby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba($color: #000000, $alpha: 0.5);
+    opacity: 1;
+    color: $color-1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}

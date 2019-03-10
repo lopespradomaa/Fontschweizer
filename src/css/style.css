@@ -5,6 +5,7 @@
 * Função: Site do Canil Fontshweizers
 */
 @import url("https://fonts.googleapis.com/css?family=Itim");
+@import url("https://fonts.googleapis.com/css?family=Itim");
 * {
   font-family: "Itim", cursive; }
 
@@ -41,6 +42,28 @@
     margin: 0px; } }
 
 @media (max-width: 1000px) {
+  .content {
+    text-align: left;
+    padding: 0px;
+    width: 500px; }
+  .texto_g {
+    font-size: 45px;
+    padding: 0px;
+    margin: 0px; }
+  .texto_m {
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px; }
+  .texto_p {
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px; }
+  .texto_pp {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px; } }
+
+@media (max-width: 700px) {
   #fifthpage_conteudo,
   #thirdpage_conteudo {
     display: flex;
@@ -69,12 +92,126 @@
     padding: 0px;
     margin: 0px; } }
 
+* {
+  font-family: "Itim", cursive; }
+
+.div-padrao, #firstpage, #secondpage, #thirdpage, #fourthpage, #fifthpage, #sixthpage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  margin: 0px; }
+
+/*Foto da Isis*/
+#isis {
+  position: relative; }
+
+#comentario-isis {
+  position: absolute;
+  width: 0;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: width 2s;
+  /* Safari */
+  transition: width 2s ease; }
+
+#isis:hover #comentario-isis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0; }
+
+/*Foto do Leonidas*/
+#leonidas {
+  position: relative; }
+
+#comentario-leonidas {
+  position: absolute;
+  width: 0;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: width 2s;
+  /* Safari */
+  transition: width 2s ease; }
+
+#leonidas:hover #comentario-leonidas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0; }
+
+/*Foto do Bask*/
+#bask {
+  position: relative; }
+
+#comentario-bask {
+  position: absolute;
+  width: 0;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: width 2s;
+  /* Safari */
+  transition: width 2s ease; }
+
+#bask:hover #comentario-bask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0; }
+
+/*Foto da Ruby*/
+#ruby {
+  position: relative; }
+
+#comentario-ruby {
+  position: absolute;
+  width: 0;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: width 2s;
+  /* Safari */
+  transition: width 2s ease; }
+
+#ruby:hover #comentario-ruby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0; }
+
 #navbar {
   background-color: #0c0c0c;
   position: fixed;
   width: 100%;
   z-index: 9999; }
 
+/** sessão pagina principal */
 #firstpage {
   padding: 56px 0 0 0; }
 
@@ -89,12 +226,14 @@
     height: 100vh;
     width: auto; }
 
+/** sessão sobre nós */
 #secondpage {
   background: #fff; }
 
 #secondpage_conteudo {
   color: #0c0c0c; }
 
+/** sessão nossos cães */
 #thirdpage {
   background: url("../img/bg_thirdpage.jpg") no-repeat;
   background-size: cover;
@@ -106,9 +245,10 @@
   padding: 56px 0 0 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   color: #fff; }
 
+/** sessão filhotes */
 #fourthpage {
   background: #fff; }
 
@@ -120,6 +260,7 @@
   width: 100%;
   height: 100vh; }
 
+/** sessão canil */
 #fifthpage {
   background: url("../img/bg_fifthpage.jpg") no-repeat;
   background-size: cover; }
@@ -130,13 +271,22 @@
   padding: 56px 0 0 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   color: #fff; }
 
+/** sessão galeria */
 #sixthpage {
-  background: #fff; }
+  background: #fff;
+  height: auto; }
 
-#sixthpage_contato1 {
-  width: 50%;
-  height: 100%;
-  padding: 57px 0 0 0; }
+#sixthpage_conteudo {
+  height: auto;
+  position: relative;
+  margin: 0px;
+  padding: 0px; }
+
+.row {
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  align-items: center; }

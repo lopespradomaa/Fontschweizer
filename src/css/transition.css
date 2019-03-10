@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Itim");
+* {
+  font-family: "Itim", cursive; }
+
+.div-padrao {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  margin: 0px; }
+
+/*Foto da Isis*/
+#isis {
+  position: relative; }
+
+#comentario-isis {
+  position: absolute;
+  width: 0;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: width 2s;
+  /* Safari */
+  transition: width 2s ease; }
+
+#isis:hover #comentario-isis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0; }
+
+/*Foto do Leonidas*/
+#leonidas {
+  position: relative; }
+
+#comentario-leonidas {
+  position: absolute;
+  width: 0;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: width 2s;
+  /* Safari */
+  transition: width 2s ease; }
+
+#leonidas:hover #comentario-leonidas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0; }
+
+/*Foto do Bask*/
+#bask {
+  position: relative; }
+
+#comentario-bask {
+  position: absolute;
+  width: 0;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: width 2s;
+  /* Safari */
+  transition: width 2s ease; }
+
+#bask:hover #comentario-bask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0; }
+
+/*Foto da Ruby*/
+#ruby {
+  position: relative; }
+
+#comentario-ruby {
+  position: absolute;
+  width: 0;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: width 2s;
+  /* Safari */
+  transition: width 2s ease; }
+
+#ruby:hover #comentario-ruby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0; }

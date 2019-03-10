@@ -5,6 +5,8 @@
 */
 
 @import "classes.scss";
+@import "responsividade.scss";
+@import "transition.scss";
 
 #navbar {
   background-color: $color-2;
@@ -12,12 +14,11 @@
   width: 100%;
   z-index: 9999;
 }
-
+/** sessão pagina principal */
 #firstpage {
   padding: $padding;
   @extend .div-padrao;
 }
-
 #firstpage_conteudo {
   height: 100vh;
   width: 100%;
@@ -32,24 +33,22 @@
 
 }
 
-
-
+/** sessão sobre nós */
 #secondpage {
   background: $color-1;
   @extend .div-padrao;
 }
-
 #secondpage_conteudo {
   color: $color-2;
 }
 
+/** sessão nossos cães */
 #thirdpage {
   background: url("../img/bg_thirdpage.jpg") no-repeat;
   background-size: cover;
   background-position: 0% 0%;
   @extend .div-padrao;
 }
-
 #thirdpage_conteudo {
   display: flex;
   align-items: center;
@@ -60,11 +59,11 @@
   color: $color-1;
 }
 
+/** sessão filhotes */
 #fourthpage {
   background: $color-1;
   @extend .div-padrao;
 }
-
 #fourthpage_conteudo {
   padding: $padding;
   display: flex;
@@ -74,12 +73,12 @@
   height: 100vh;
 }
 
+/** sessão canil */
 #fifthpage {
   @extend .div-padrao;
   background: url("../img/bg_fifthpage.jpg") no-repeat;
   background-size: cover;
 }
-
 #fifthpage_conteudo {
   display: flex;
   align-items: center;
@@ -90,13 +89,23 @@
   color: $color-1;
 }
 
+/** sessão galeria */
 #sixthpage {
   background: $color-1;
   @extend .div-padrao;
+  height: auto; 
 }
 
-#sixthpage_contato1 {
-width: 50%;
-height: 100%;
-padding: 57px 0 0 0;
+#sixthpage_conteudo {
+  height: auto;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+
+}
+.row {
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
 }
